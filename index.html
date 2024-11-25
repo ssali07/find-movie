@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/thumbnails/012/627/675/small/3d-movie-clapper-board-social-media-network-and-film-making-concept-high-quality-isolated-3d-render-png.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Movie API</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href=""><span>API</span> Connect</a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a id="aboutBtn" href="#">About</a></li>
+                <li><a href="#foot">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Search Your Favourite <span>Movies</span> Here</h1>
+        <div class="search-container">
+            <form action="">
+                <input type="text" id="search-input" placeholder="Type here to search">
+                <button id="search-btn" >Search</button>
+            </form>
+        </div>
+
+        <h2 id="result">No movies searched till now.</h2>
+        <div class="movie-container">
+            <div class="movie-image">
+                <img id="img_box" src="#" alt="">
+            </div>
+            <div class="movie-details">
+                <h2 id="title"></h2>
+                <h3 id="genre"></h3>
+                <h3 id="actors"></h3>
+                <h3 id="director"></h3>
+                <h3 id="runtime"></h3>
+                <h3 id="released"></h3>
+                <h3 id="rating"></h3>
+                <h3 id="country"></h3>
+                <h3 id="language"></h3>
+                <h4 id="rated"></h4>
+                <h4 id="awards"></h4>
+                <h4 id="writer"></h4>
+                <h4 id="plot"></h4>
+            </div>
+        </div>
+    </main>
+    <footer id="foot">
+        <div class="contact">
+            <a class="logo" href="./index.html"><span>API</span> Connect</a>
+            <h3>Contact Us</h3>
+            <p>(+91) 9653125083</p>
+            <p>sahin7963ali@gmail.com</p>
+        </div>
+        <ul>
+            <h3>Navigation Links</h3>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Guide</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <h3>API's</h3>
+            <li><a href="">Weather API</a></li>
+            <li><a href="">Image Search API</a></li>
+            <li><a href="">Recipe API</a></li>
+            <li><a href="">Movie API</a></li>
+            <li><a href="">News API</a></li>
+        </ul>
+        <ul>
+            <h3>Quick Links</h3>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">&copy; API Connect, 2024</a></li>
+        </ul>
+    </footer>
+    <script src="./js/index.js"></script>
+    
+</body>
+
+</html>
